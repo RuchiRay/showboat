@@ -1,5 +1,5 @@
 import React from "react";
-import bobbleGroup from "../images/BobblesGroup.svg";
+import bobbleGroup from "../images/BobblesGroup 1.png";
 import blue from "../images/Bobble Blue.png";
 import greem from "../images/Bobble Green.png";
 import orange from "../images/Bobble Orange.png";
@@ -11,6 +11,7 @@ export const ScreenOne = () => {
         <p className="welcome">Welcome</p>
         <div className="bg-abstract">
           <div className="bg-transparent">
+            <div className="heading-img">
             <p className="curve-text">
               <span className='B'>B</span>
               <span className='o'>o</span>
@@ -25,6 +26,8 @@ export const ScreenOne = () => {
               <span className='y'>y</span>
             </p>
             <img className="gp-blob" src={bobbleGroup} alt="bobble" />
+            </div>
+            
             <h3>Welcome to the party</h3>
             <button className="btn">Batman</button>
             <div className="desc">

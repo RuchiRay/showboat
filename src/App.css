@@ -32,12 +32,9 @@
 .gp-blob{
  width: 200px;
  height: 100px;
- margin-bottom: 20px;
- background-color: gray;
+ 
 }
 .bob{
- 
- 
   border-radius: 25px;
   padding: 25px 15px;
   margin: 7px;
@@ -70,7 +67,7 @@
   -webkit-text-stroke: 2px black;
   font-weight: 900;
   font-size: 3rem;
-  margin-bottom: 10px;
+  
 }
 .curve-text span{
   display: inline-block;
@@ -134,4 +131,15 @@
 }
 .y{
   transform:translateY(5px) rotate(25deg);
+}
+.heading-img{
+  position: relative;
+  height: 100px;
+  transform: translateY(-40px);
+}
+.gp-blob{
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
 }
